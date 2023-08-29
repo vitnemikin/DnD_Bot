@@ -13,7 +13,9 @@ export const Races = {
     HUMAN: 'Человек',
     DWARF: 'Дварф',
     ELF: 'Эльф',
-    ORC: 'Орк'
+    ORC: 'Орк',
+    TIEFLING: 'Тифлинг',
+    DRAGONBORN: 'Драконорожденный'
 }
 
 // основной тип данных
