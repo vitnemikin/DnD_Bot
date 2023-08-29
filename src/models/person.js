@@ -14,6 +14,7 @@ export const Races = {
     DWARF: 'Дварф',
     ELF: 'Эльф',
     ORC: 'Орк',
+    COBOLD: 'Кобольд',
     TIEFLING: 'Тифлинг',
     DRAGONBORN: 'Драконорожденный'
 }
