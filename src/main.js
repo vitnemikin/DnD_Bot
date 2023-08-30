@@ -1,4 +1,12 @@
-import { Types, Races, Person } from './models/person.js'
+import { Application } from "./app.js"
+import fs from 'fs'
+import ini from 'ini'
 
-let testMan = new Person("Элронд", Races.ELF, Types.MAGE)
-console.log(testMan)
+const cfg_file = fs.readFileSync("./src/config.ini", "utf-8")
+const config = ini.parse(cfg_file)
+
+const app = new Application(config)
+await app.start()
+
+app.test()
+await app.stop()
